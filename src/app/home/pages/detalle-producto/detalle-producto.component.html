@@ -1,0 +1,19 @@
+<app-success-toast *ngIf="showSuccessToast" [message]="successMessage"></app-success-toast>
+<section class="section1" id="detalle-producto" *ngIf="producto">
+    <div class="image">
+        <img src="{{producto?.imagen}}" alt="{{producto?.nombre}}">
+    </div>
+    <div class="container1">
+        <span class="title1">
+        {{producto?.nombre}}
+        </span>
+        <p class="description1">{{producto?.descripcion}}</p>
+        <p class="description1">Precio: ${{producto?.precio}}</p>
+        <div class="primary1">
+            <span class="titlePrimary1" (click)="agregarAlCarrito(producto);"> 
+                Agregar al Carrito
+            </span>
+        </div>
+    </div>
+</section>
+

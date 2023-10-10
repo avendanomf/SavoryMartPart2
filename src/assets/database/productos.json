@@ -1,0 +1,104 @@
+[
+  {
+    "nombre": "Aguacate",
+    "descripcion": "El aguacate es una fruta deliciosa y saludable. Es una excelente fuente de grasas saludables y es perfecto para preparar guacamole.",
+    "imagen": "assets/img/Aguacate.jpg",
+    "precio": 2.99
+  },
+  {
+    "nombre": "Apio",
+    "descripcion": "El apio es una hortaliza crujiente y refrescante. Es ideal para ensaladas y snacks saludables.",
+    "imagen": "assets/img/Apio.jpg",
+    "precio": 1.49
+  },
+  {
+    "nombre": "Berenjena",
+    "descripcion": "La berenjena es una verdura versátil que se puede asar, hornear o freír. Es un ingrediente común en las cocinas mediterráneas.",
+    "imagen": "assets/img/Berenjena.jpg",
+    "precio": 2.29
+  },
+  {
+    "nombre": "Carne",
+    "descripcion": "Nuestra carne fresca proviene de la mejor calidad. Es perfecta para parrillas y asados.",
+    "imagen": "assets/img/Carne.jpg",
+    "precio": 5.99
+  },
+  {
+    "nombre": "Coliflor",
+    "descripcion": "La coliflor es una verdura crucífera que se puede cocinar de muchas maneras. Es una excelente opción baja en calorías.",
+    "imagen": "assets/img/coliflor.jpg",
+    "precio": 1.99
+  },
+  {
+    "nombre": "Fresa",
+    "descripcion": "Las fresas son frutas dulces y jugosas. Son ideales para postres, batidos y ensaladas de frutas.",
+    "imagen": "assets/img/fresa.jpg",
+    "precio": 3.49
+  },
+  {
+    "nombre": "Lechuga",
+    "descripcion": "La lechuga es una verdura de hojas verdes perfecta para ensaladas. Es refrescante y saludable.",
+    "imagen": "assets/img/Lechuga.jpg",
+    "precio": 1.79
+  },
+  {
+    "nombre": "Mandarina",
+    "descripcion": "Las mandarinas son cítricos pequeños y deliciosos. Son una fuente rica de vitamina C.",
+    "imagen": "assets/img/Mandarina.jpg",
+    "precio": 0.99
+  },
+  {
+    "nombre": "Manzana",
+    "descripcion": "Las manzanas son frutas crujientes y nutritivas. Son ideales como tentempié saludable.",
+    "imagen": "assets/img/Manzana.jpg",
+    "precio": 1.69
+  },
+  {
+    "nombre": "Mazorca",
+    "descripcion": "Las mazorcas de maíz frescas son ideales para parrillas y barbacoas de verano.",
+    "imagen": "assets/img/Mazorca.jpg",
+    "precio": 2.49
+  },
+  {
+    "nombre": "Papaya",
+    "descripcion": "La papaya es una fruta tropical jugosa y llena de sabor. Es rica en vitaminas y antioxidantes.",
+    "imagen": "assets/img/papaya.jpg",
+    "precio": 2.19
+  },
+  {
+    "nombre": "Pera",
+    "descripcion": "Las peras son frutas dulces y jugosas que son perfectas para comer solas o en ensaladas de frutas.",
+    "imagen": "assets/img/Pera.jpg",
+    "precio": 1.89
+  },
+  {
+    "nombre": "Piña",
+    "descripcion": "La piña es una fruta tropical que es una excelente fuente de vitamina C. Es deliciosa en batidos y cócteles.",
+    "imagen": "assets/img/Piña.jpg",
+    "precio": 2.39
+  },
+  {
+    "nombre": "Plátano",
+    "descripcion": "Los plátanos son frutas versátiles y energéticas. Son ideales como snack o en batidos.",
+    "imagen": "assets/img/Platano.jpg",
+    "precio": 1.29
+  },
+  {
+    "nombre": "Naranja",
+    "descripcion": "Nuestras naranjas frescas son jugosas y llenas de sabor. Son una excelente fuente de vitamina C.",
+    "imagen": "assets/img/Prod1.png",
+    "precio": 3.99
+  },
+  {
+    "nombre": "Tomate",
+    "descripcion": "Los tomates son versátiles y se utilizan en muchas recetas. Son una fuente de licopeno y vitaminas.",
+    "imagen": "assets/img/Tomate.jpg",
+    "precio": 1.49
+  },
+  {
+    "nombre": "Uva",
+    "descripcion": "Las uvas son frutas pequeñas y dulces que son perfectas para comer solas o en ensaladas de frutas.",
+    "imagen": "assets/img/Uva.jpg",
+    "precio": 4.99
+  }
+]

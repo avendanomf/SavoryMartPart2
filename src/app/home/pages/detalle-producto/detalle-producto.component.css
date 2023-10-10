@@ -1,0 +1,140 @@
+
+.section1 {
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin: 80px 20px 293px 0;
+    padding: 60px 170px;
+}
+
+.image1 {
+    align-self: stretch;
+    flex-grow: 1;
+    border-radius: 6px;
+    background-color: rgba(217, 217, 217, 0.5);
+}
+
+.container1 {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 0;
+}
+
+
+
+.title1 {
+    height: 48px;
+    align-self: stretch;
+    flex-grow: 0;
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+}
+
+.description1 {
+    height: 24px;
+    align-self: stretch;
+    flex-grow: 0;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+}
+
+.primary1 {
+    width: 160px;
+    height: 30px;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #000;
+    cursor: pointer;
+    /* Cambia el cursor al pasar el mouse por encima */
+    transition: background-color 0.3s;
+    /* Efecto de transición al pasar el mouse */
+}
+
+.primary1:hover {
+    background-color: #333;
+    /* Cambia el color de fondo al pasar el mouse */
+}
+
+.titlePrimary1 {
+    white-space: nowrap;
+    flex-grow: 0;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    /* Alinea el texto al centro */
+    color: #fff;
+}
+
+
+.Secundary1 {
+    width: 160px;
+    height: 30px;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    border-radius: 8px;
+    border: solid 1px #000;
+    border-color: #000;
+    background-color: #fff;
+    cursor: pointer;
+    /* Cambia el cursor al pasar el mouse por encima */
+    transition: background-color 0.3s;
+    /* Efecto de transición al pasar el mouse */
+}
+
+.Secundary1:hover {
+    background-color: #ff6600;
+    /* Cambia el color de fondo al pasar el mouse */
+}
+
+
+.titleSecundary1 {
+    width: 114px;
+    height: 24px;
+    flex-grow: 0;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+}
+

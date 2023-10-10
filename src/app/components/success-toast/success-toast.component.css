@@ -1,0 +1,7 @@
+:host {
+    width: 60%;
+    position: fixed;
+    top: 20px; /* Ajusta la posición vertical según tu diseño */
+    right: 20px; /* Ajusta la posición horizontal según tu diseño */
+    z-index: 9999; /* Puedes ajustar el valor de z-index según sea necesario */
+  }

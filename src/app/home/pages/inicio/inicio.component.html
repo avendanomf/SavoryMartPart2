@@ -1,0 +1,87 @@
+<section class="section1">
+  <img src="assets/img/SectionHome.png" class="imagen-seccionp">
+  <div class="containerHome">
+    <span class="titleHome">
+      Bienvenido a nuestra tienda en línea
+    </span>
+    <span class="descriptionHome">
+      La mejor selección de productos para ti
+    </span>
+    <div class="primaryHome">
+      <span class="titlePrimaryHome" (click)="verProductList()">
+        Ver más
+      </span>
+    </div>
+  </div>
+</section>
+<section class="sectionPP">
+  <div class="containerPP">
+    <span class="titlePP">
+      Productos populares
+    </span>
+    <div class="primaryPP">
+      <span class="titlePrimaryPP" (click)="verProductList()">
+        Ver todos los productos
+      </span>
+    </div>
+    <app-success-toast *ngIf="showSuccessToast" [message]="successMessage"></app-success-toast>
+    <div id="carouselExampleControls" class="carousel">
+      <div class="carousel-inner" style="padding: 1em; display: flex; max-width: 1500px;">
+
+        <div class="carousel-item" *ngFor="let product of listProducts | async let i = index" [id]="'product-' + i">
+          <div class="card" style="margin: 0 0.5em;
+          box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+          border: none;
+          max-width: 410px;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;">
+            <div class="img-wrapper" style="
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            max-width: 90%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;"><img src="{{product.imagen}}" class="d-block w-100" alt="{{product.nombre}}"> </div>
+            <div class="card-body">
+              <h5 class="card-title">
+                <p>{{product.nombre}}</p>
+              </h5>
+              <p class="card-text">${{product.precio}}</p>
+              <a (click)="verDetalle(product.nombre)" class="btn btn-link">Ver detalle</a>
+              <a (click)="agregarAlCarrito(product);" class="btn btn-primary">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                Agregar al carrito
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+
+<section class="section3">
+  <span class="title3">
+    © 2022 Tienda en Línea. Todos los derechos reservados.
+  </span>
+  <span class="title3">
+    Contacto: info@tiendaenlinea.com
+  </span>
+
+</section>

@@ -1,0 +1,13 @@
+
+<div class="product-grid">
+  <app-success-toast *ngIf="showSuccessToast" [message]="successMessage"></app-success-toast>
+  <div *ngFor="let product of listProducts | async" class="product-card">
+    <img [src]="product.imagen" alt="{{ product.nombre }}">
+    <h3>{{ product.nombre }}</h3>
+    <p>Precio: ${{ product.precio.toFixed(2) }}</p>
+    <a (click)="agregarAlCarrito(product);" class="custom-link card-title">
+      <i class="fa fa-shopping-cart fa-lg text-primary" aria-hidden="true"></i>
+      Agregar al carrito
+    </a>
+  </div>
+</div>

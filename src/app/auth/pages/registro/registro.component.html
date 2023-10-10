@@ -1,0 +1,21 @@
+<section class="section1">
+    <div class="container1">
+        <span class="title1">
+            Registro del administrador
+        </span>
+        <span class="title2">
+            Nombre de usuario
+        </span>
+        <input class="text3" [(ngModel)]="usuario" name="usuario" required placeholder="Ingresa tu nombre de usuario">
+        <span class="title2">
+            Contraseña
+        </span>
+        <input class="text3" [(ngModel)]="contrasena" name="contrasena" type="password" required
+            placeholder="Ingresa tu contraseña">
+        <button class="primary3 " (click)="guardarUsuario()">
+            <span class="titlePrimary3">
+                Registrarse
+            </span>
+        </button>
+    </div>
+</section>
